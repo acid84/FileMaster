@@ -1,0 +1,15 @@
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\bin\Debug\FileMaster.UI.exe.config
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\bin\Debug\FileMaster.UI.exe
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\bin\Debug\FileMaster.UI.pdb
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\bin\Debug\FileMaster.Domain.dll
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\bin\Debug\FileMaster.Domain.pdb
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\obj\Debug\FileMaster.UI.csprojResolveAssemblyReference.cache
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\obj\Debug\MainWindow.baml
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\obj\Debug\MainWindow.g.cs
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\obj\Debug\App.g.cs
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\obj\Debug\FileMaster.UI_MarkupCompile.cache
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\obj\Debug\FileMaster.UI.g.resources
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\obj\Debug\FileMaster.UI.Properties.Resources.resources
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\obj\Debug\FileMaster.UI.csproj.GenerateResource.Cache
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\obj\Debug\FileMaster.UI.exe
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.UI\obj\Debug\FileMaster.UI.pdb

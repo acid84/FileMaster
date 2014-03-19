@@ -1,0 +1,5 @@
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.Domain\bin\Debug\FileMaster.Domain.dll
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.Domain\bin\Debug\FileMaster.Domain.pdb
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.Domain\obj\Debug\FileMaster.Domain.csprojResolveAssemblyReference.cache
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.Domain\obj\Debug\FileMaster.Domain.dll
+c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.Domain\obj\Debug\FileMaster.Domain.pdb
