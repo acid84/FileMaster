@@ -3,3 +3,8 @@ c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.D
 c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.Domain\obj\Debug\FileMaster.Domain.csprojResolveAssemblyReference.cache
 c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.Domain\obj\Debug\FileMaster.Domain.dll
 c:\users\acid8_000\documents\visual studio 2013\Projects\FileMaster\FileMaster.Domain\obj\Debug\FileMaster.Domain.pdb
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain\bin\Debug\FileMaster.Domain.dll
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain\bin\Debug\FileMaster.Domain.pdb
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain\obj\Debug\FileMaster.Domain.csprojResolveAssemblyReference.cache
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain\obj\Debug\FileMaster.Domain.dll
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain\obj\Debug\FileMaster.Domain.pdb

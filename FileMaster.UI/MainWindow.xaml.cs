@@ -27,5 +27,10 @@ namespace FileMaster.UI
 			FileNotifier fileNotifier = new FileNotifier();
 			fileNotifier.StartWatchingForFilesInFolder("D:\\Test");
 		}
+
+		protected override void OnDragEnter(DragEventArgs e)
+		{
+			base.OnDragEnter(e);
+		}
 	}
 }

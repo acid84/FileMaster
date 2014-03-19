@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileMaster.UI", "FileMaster
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileMaster.Domain", "FileMaster.Domain\FileMaster.Domain.csproj", "{823983C7-4E54-4BF1-A3C6-524746A22181}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{09377EF6-7A30-4A8F-AA55-73ECEE10DC07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileMaster.Domain.Tests", "FileMaster.Domain.Tests\FileMaster.Domain.Tests.csproj", "{B370A422-A6F6-4633-B107-2737611DA791}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{823983C7-4E54-4BF1-A3C6-524746A22181}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{823983C7-4E54-4BF1-A3C6-524746A22181}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{823983C7-4E54-4BF1-A3C6-524746A22181}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B370A422-A6F6-4633-B107-2737611DA791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B370A422-A6F6-4633-B107-2737611DA791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B370A422-A6F6-4633-B107-2737611DA791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B370A422-A6F6-4633-B107-2737611DA791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B370A422-A6F6-4633-B107-2737611DA791} = {09377EF6-7A30-4A8F-AA55-73ECEE10DC07}
 	EndGlobalSection
 EndGlobal
