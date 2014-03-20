@@ -1,0 +1,4 @@
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain\bin\Release\FileMaster.Domain.dll
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain\bin\Release\FileMaster.Domain.pdb
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain\obj\Release\FileMaster.Domain.dll
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain\obj\Release\FileMaster.Domain.pdb

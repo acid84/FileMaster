@@ -82,16 +82,16 @@
 										<Image Margin="15,15,0,15" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="0" Source="Images/settingslogo.png" Width="300" HorizontalAlignment="Left" />
 										<StackPanel Grid.Column="0" Grid.Row="1" Margin="20,0,0,0">
 											<Label Content="Destination folder" />
-											<TextBox />
+											<TextBox Text="{Binding DestinationFolder, UpdateSourceTrigger=PropertyChanged}" />
 											<Label Content="Torrentfile folder" />
-											<TextBox />
+											<TextBox Text="{Binding TorrentFileFolder, UpdateSourceTrigger=PropertyChanged}" />
 											<Label Content="Working folder" />
-											<TextBox />
+											<TextBox Text="{Binding WorkingFolder, UpdateSourceTrigger=PropertyChanged}" />
 										</StackPanel>
 										
 										<StackPanel Margin="20,20,20,20" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Orientation="Horizontal">
-											<Button Height="40" Width="80" Content="Save" />
-											<Button Height="40" Width="80" Margin="10,0,0,0" Content="Cancel" />
+											<Button Height="40" Width="80" Content="Save" Command="{Binding SaveCommand}" />
+											<Button Height="40" Width="80" Margin="10,0,0,0" Content="Cancel" Command="{Binding CancelCommand}" />
 										</StackPanel>
 										<ResizeGrip Width="10" Height="10" Grid.Column="1" VerticalAlignment="Bottom" Grid.Row="2" />
 									</Grid>

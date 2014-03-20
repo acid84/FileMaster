@@ -1,0 +1,5 @@
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain.Tests\bin\Release\FileMaster.Domain.Tests.dll
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain.Tests\bin\Release\FileMaster.Domain.Tests.pdb
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain.Tests\obj\Release\FileMaster.Domain.Tests.csprojResolveAssemblyReference.cache
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain.Tests\obj\Release\FileMaster.Domain.Tests.dll
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.Domain.Tests\obj\Release\FileMaster.Domain.Tests.pdb
