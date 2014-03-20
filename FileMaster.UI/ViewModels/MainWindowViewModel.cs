@@ -38,8 +38,15 @@ namespace FileMaster.UI.ViewModels
 			MonitorText = "Start Monitoring";
 			LogRows = new ObservableCollection<string>();
 			AddLog("Application started.");
-			ExitCommand = new RelayCommand(() => Exit());
-			StartMonitoringCommand = new GalaSoft.MvvmLight.Command.RelayCommand(() => StartMonitoring());
+			ExitCommand = new RelayCommand(Exit);
+			StartMonitoringCommand = new RelayCommand(StartMonitoring);
+			SettingsCommand = new RelayCommand(OpenSettingsWindow);
+		}
+
+		private void OpenSettingsWindow()
+		{
+			SettingsView view = new SettingsView();
+			view.ShowDialog();
 		}
 
 		private void Exit()

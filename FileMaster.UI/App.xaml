@@ -54,5 +54,54 @@
         </Setter.Value>
       </Setter>
     </Style>
-  </Application.Resources>
+
+		<Style TargetType="Window" x:Key="MySettings">
+			<Setter Property="AllowsTransparency" Value="True" />
+			<Setter Property="WindowStyle" Value="None" />
+			<Setter Property="ResizeMode" Value="CanResizeWithGrip" />
+			<Setter Property="Height" Value="500" />
+			<Setter Property="Width" Value="800" />
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Window}">
+						<Border BorderBrush="Black" BorderThickness="3" CornerRadius="1" Height="{TemplateBinding Height}" Width="{TemplateBinding Width}" Background="Gray">
+							<DockPanel>
+								<Border HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Background="Gray" CornerRadius="0,0,10,10">
+									<Grid>
+										<Grid.ColumnDefinitions>
+											<ColumnDefinition />
+											<ColumnDefinition Width="20" />
+										</Grid.ColumnDefinitions>
+										<Grid.RowDefinitions>
+											<RowDefinition Height="Auto" />
+											<RowDefinition Height="*" />
+											<RowDefinition Height="100">
+											</RowDefinition>
+										</Grid.RowDefinitions>
+
+										<Image Margin="15,15,0,15" Grid.Row="0" Grid.ColumnSpan="2" Grid.Column="0" Source="Images/settingslogo.png" Width="300" HorizontalAlignment="Left" />
+										<StackPanel Grid.Column="0" Grid.Row="1" Margin="20,0,0,0">
+											<Label Content="Destination folder" />
+											<TextBox />
+											<Label Content="Torrentfile folder" />
+											<TextBox />
+											<Label Content="Working folder" />
+											<TextBox />
+										</StackPanel>
+										
+										<StackPanel Margin="20,20,20,20" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="2" HorizontalAlignment="Right" Orientation="Horizontal">
+											<Button Height="40" Width="80" Content="Save" />
+											<Button Height="40" Width="80" Margin="10,0,0,0" Content="Cancel" />
+										</StackPanel>
+										<ResizeGrip Width="10" Height="10" Grid.Column="1" VerticalAlignment="Bottom" Grid.Row="2" />
+									</Grid>
+								</Border>
+							</DockPanel>
+						</Border>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+
+	</Application.Resources>
 </Application>

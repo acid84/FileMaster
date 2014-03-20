@@ -40,3 +40,5 @@ C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\GalaSoft.
 C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
 C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\obj\Debug\SettingsView.baml
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\obj\Debug\SettingsView.g.cs
