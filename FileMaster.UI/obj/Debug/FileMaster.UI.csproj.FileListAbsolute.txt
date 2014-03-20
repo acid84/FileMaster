@@ -29,3 +29,14 @@ C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\obj\Debug\FileMaste
 C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\obj\Debug\FileMaster.UI.Properties.Resources.resources
 C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\obj\Debug\FileMaster.UI.csproj.GenerateResource.Cache
 C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\obj\Debug\App.baml
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.dll
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\GalaSoft.MvvmLight.WPF45.dll
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.pdb
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\GalaSoft.MvvmLight.Extras.WPF45.xml
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\GalaSoft.MvvmLight.WPF45.pdb
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\GalaSoft.MvvmLight.WPF45.xml
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\acid8_000\Documents\GitHub\FileMaster\FileMaster.UI\bin\Debug\System.Windows.Interactivity.xml

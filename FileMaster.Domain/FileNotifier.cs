@@ -28,7 +28,23 @@ namespace FileMaster.Domain
 		public event EventHandler<FileFoundEventArgs> FileFound;
 		private readonly Dictionary<Guid, FileSystemWatcher> _fileSystemWatchers = new Dictionary<Guid, FileSystemWatcher>();
 
-		public void StartWatchingForFilesInFolder(string folder)
+		public FileNotifier()
+		{
+		}
+
+		public void StopWatching(Guid id)
+		{
+			FileSystemWatcher watcher;
+			if(_fileSystemWatchers.TryGetValue(id, out watcher))
+			{
+				watcher.EnableRaisingEvents = false;
+				watcher.Dispose();
+				_fileSystemWatchers.Remove(id);
+				watcher = null;
+			}
+		}
+
+		public Guid StartWatchingForFilesInFolder(string folder)
 		{
 			Guid id = Guid.NewGuid();
 			FileSystemWatcher watcher = new FileSystemWatcher(folder);
@@ -38,6 +54,8 @@ namespace FileMaster.Domain
 			watcher.Changed += watcher_Changed;
 			// Start watching
 			watcher.EnableRaisingEvents = true;
+
+			return id;
 		}
 
 		void watcher_Changed(object sender, FileSystemEventArgs e)

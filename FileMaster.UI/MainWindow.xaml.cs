@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using FileMaster.Domain;
+using FileMaster.UI.ViewModels;
 
 namespace FileMaster.UI
 {
@@ -24,8 +25,16 @@ namespace FileMaster.UI
 		public MainWindow()
 		{
 			InitializeComponent();
-			FileNotifier fileNotifier = new FileNotifier();
-			fileNotifier.StartWatchingForFilesInFolder("D:\\Test");
+			this.MouseDown += Window_MouseDown;
+			DataContext = new MainWindowViewModel();
+		}
+
+		private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+		{
+			if (e.LeftButton == MouseButtonState.Pressed)
+			{
+				DragMove();
+			}
 		}
 
 		protected override void OnDragEnter(DragEventArgs e)
